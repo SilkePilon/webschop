@@ -261,1117 +261,862 @@
 
     
   </style>
+  <center>
+    <h1 style="color:white">All the games in 1 place!</h1>
+  </center>
   <link href='http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css' rel='stylesheet'/><script src='https://codepen.io/Deja2/pen/JMPLEQ.js' type='text/javascript'></script><nav>
+    
     <a class="responsive-menu" href="#" id="resp-menu"><i class="fa fa-reorder"></i> Menu</a>    
        <ul class="menu">
-    <li><a class="homer" href="#"><i class="fa fa-home"></i> HOME</a>
-       <ul class="sub-menu">
-    <li><a href="#">Sub-Menu 1</a></li>
-    <li><a href="#">Sub-Menu 2</a></li>
-    <li><a href="#">Sub-Menu 3</a></li>
-    <li><a href="#">Sub-Menu 4</a></li>
-    <li><a href="#">Sub-Menu 5</a></li>
-    </ul>
-    </li>
-    <li><a href="#"><i class="fa fa-user"></i> ABOUT</a></li>
-    <li><a href="#"><i class="fa-solid fa-gamepad"></i> GAMES</a>
-      <ul class="sub-menu">
-    <li><a href="#Servival">Servival Games</a></li>
-    <li><a href="#Race">Race Games</a></li>
-    </ul>
-    </li>
-    <li><a href="#">Sub-Menu 3</a>
-        <ul>
-    
-    </ul>
-    </li>
-    </ul>
-    </li>
+    <img style="width: 100px; margin-bottom: -20px;margin-top:7px;margin-left:10px;margin-right:5px;float:left;" src="/PLAYDEX.png">
+    <h1 style="color: #fff;position:relative; bottom:-29px;">PlayDex</h1>
+    <center>
+      <div style="left: 100px;">
+        <li><a class="homer" href="#"><i class="fa fa-home"></i> HOME</a></li>
+        <li><a href="#"><i class="fa fa-user"></i> ABOUT</a></li>
+        <li><a href="#"><i class="fa-solid fa-gamepad"></i> GAMES</a>
+          <ul class="sub-menu">
+        <li><a href="#Servival">Servival Games</a></li>
+        <li><a href="#Race">Race Games</a></li>
+        <li><a href="#FPS">FPS Games</a></li>
+        </ul>
+        </li>
+        <li><a href="#Voorwaarden"><i class="fa fa-user"></i> VOORWAARDEN</a></li>
+        
+        </ul>
+        </li>
+        </ul>
+        </li>
+      </div>
+    </center>
     
     </nav>
 <!-- partial:index.partial.html -->
-<main class="main">
-  <section class="card-lg__container">
-    
-    <h1 style="font-size:40px;" class="card__text-lg">New on PlayDex:</h1>
-    <p class="card__text-md">Chck out all the new games now</p>
-    <a href="#" class="card__btn">Discover Games</a>
-  </section>
+<!-- partial:index.partial.html -->
+<div class="app" style="width: 100%;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background: rgba(0, 0, 0, 0.787);
+overflow: hidden;">
+
+	<div class="cardList">
+		<button class="cardList__btn btn btn--left">
+			<div class="icon">
+				<svg>
+					<use xlink:href="#arrow-left"></use>
+				</svg>
+			</div>
+		</button>
+
+		<div class="cards__wrapper">
+			<div class="cardxD current--card">
+				<div class="card__image">
+					<img src="https://i.pinimg.com/originals/cd/7b/bb/cd7bbbf3b6386b35d5d300c36807023d.jpg" alt="" />
+				</div>
+			</div>
+
+			<div class="cardxD next--card">
+				<div class="card__image">
+					<img src="https://i.pinimg.com/474x/46/d2/c8/46d2c8df2eda6b99fa7c826f404171ec.jpg" alt="" />
+				</div>
+			</div>
+
+			<div class="cardxD previous--card">
+				<div class="card__image">
+					<img src="https://w0.peakpx.com/wallpaper/609/748/HD-wallpaper-forza-horizon-4-need-speed-most-wanted.jpg" alt="" />
+				</div>
+			</div>
+		</div>
+
+		<button class="cardList__btn btn btn--right">
+			<div class="icon">
+				<svg>
+					<use xlink:href="#arrow-right"></use>
+				</svg>
+			</div>
+		</button>
+	</div>
+
+	<div class="infoList">
+		<div class="info__wrapper">
+			<div class="info current--info">
+				<h1 class="text name">Forbidden west</h1>
+				<h4 class="text location">70,-</h4>
+				<p class="text description">The mountains are calling</p>
+			</div>
+
+			<div class="info next--info">
+				<h1 class="text name">Minecraft</h1>
+				<h4 class="text location">30,-</h4>
+				<p class="text description">Adventure is never far away</p>
+			</div>
+
+			<div class="info previous--info">
+				<h1 class="text name">Forza horizon 4</h1>
+				<h4 class="text location">30,-</h4>
+				<p class="text description">Let's see who is faster!</p>
+			</div>
+		</div>
+	</div>
 
 
-  <section class="card-sm__container">
-    <!--- START: CARD --->
-    <section class="card-sm" style="background-image:url('https://images.penguinrandomhouse.com/cover/9781506732022')">
-      <p class="card__text-sm">servival</p>
-      <h1 class="card__text-lg">Horizon: Forbidden west</h1>
-    </section>
-    <!--- END: CARD --->
+	<div class="app__bg">
+		<div class="app__bg__image current--image">
+			<img src="https://images.penguinrandomhouse.com/cover/9781506732022" alt="" />
+		</div>
+		<div class="app__bg__image next--image">
+			<img src="https://www.minecraft.net/content/dam/games/minecraft/key-art/MC_One-Vanilla_285x380px.jpg" alt="" />
+		</div>
+		<div class="app__bg__image previous--image">
+			<img src="https://w0.peakpx.com/wallpaper/609/748/HD-wallpaper-forza-horizon-4-need-speed-most-wanted.jpg" alt="" />
+		</div>
+	</div>
+</div>
 
-    <!--- START: CARD --->
-    <section class="card-sm" style="background-image: url('https://www.mirandawashburn.com/media/projects/travelHomepage/japanAlpsMonkeys.jpeg'); background-position: center right;">
-      <p class="card__text-sm">Japan Alps</p>
-      <h1 class="card__text-lg">Nagano Prefecture</h1>
-    </section>
-    <!--- END: CARD --->
+<div class="loading__wrapper">
+	<div class="loader--text">Loading...</div>
+	<div class="loader">
+		<span></span>
+	</div>
+</div>
 
-    <!--- START: CARD --->
-    <section class="card-sm" style="background-image: url('https://www.mirandawashburn.com/media/projects/travelHomepage/sierraNevada.jpeg')">
-      <p class="card__text-sm">Sierra Nevada - USA</p>
-      <h1 class="card__text-lg">Yosemite National  </h1>
-    </section>
-    <!--- END: CARD --->
 
-    <!--- START: CARD --->
-    <section class="card-sm" style="background-image: url('https://www.mirandawashburn.com/media/projects/travelHomepage/cappadociaTurkey.jpeg')">
-      <p class="card__text-sm">Cappadocia - Turkey</p>
-      <h1 class="card__text-lg">Goreme &nbsp; Valley</h1>
-    </section>
-    <!--- END: CARD --->
-   
+<svg class="icons" style="display: none;">
+	<symbol id="arrow-left" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+		<polyline points='328 112 184 256 328 400'
+					 style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+	</symbol>
+	<symbol id="arrow-right" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+		<polyline points='184 112 328 256 184 400'
+					 style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+	</symbol>
+</svg>
 
-</main>
+
+
+
+
+
+
+
+
+
+
+
 <!-- partial -->
-  <script  src="./script.js"></script>
-  <style>
-    .abs,
-    h2:after,
-    .cards .card figcaption,
-    .cards .card:after,
-    .news .card figcaption,
-    .news .card:after,
-    .news .article figcaption {
-      position: absolute;
-    }
-    .rel,
-    h2,
-    h2 strong,
-    .cards .card,
-    .news .card,
-    .news .article {
-      position: relative;
-    }
-    .fix {
-      position: fixed;
-    }
-    .dfix {
-      display: inline;
-    }
-    .dib {
-      display: inline-block;
-    }
-    .db {
-      display: block;
-    }
-    .dn {
-      display: none;
-    }
-    .df,
-    .cards,
-    .news {
-      display: flex;
-    }
-    .dif {
-      display: inline-flex;
-    }
-    .dg {
-      display: grid;
-    }
-    .dig {
-      display: inline-grid;
-    }
-    .vm,
-    h2,
-    h2 strong,
-    h2 span {
-      vertical-align: middle;
-    }
-    body {
-      background: #24282f;
-      
-    }
-    .wrapper {
-      padding: 15px;
-    }
-    h2 {
-      padding: 10px;
-      padding-left: 25px;
-      color: #ccc;
-      margin: 0;
-    }
-    h2 strong {
-      z-index: 2;
-      background: #24282f;
-      padding: 4px 8px;
-    }
-    h2 span {
-      font-size: 0.7em;
-      color: #aaa;
-      margin-left: 10px;
-    }
-    h2:after {
-      content: '';
-      z-index: 1;
-      bottom: 50%;
-      margin-bottom: -2px;
-      height: 2px;
-      left: 0;
-      right: 0;
-      background: #373d47;
-    }
-    .cards,
-    .news {
-      flex-flow: row wrap;
-      
-    }
-    .cards .card,
-    .news .card {
-      margin: 20px;
-      width: 180px;
-      height: 270px;
-      overflow: hidden;
-      box-shadow: 0 5px 10px rgba(0,0,0,0.8);
-      transform-origin: center top;
-      transform-style: preserve-3d;
-      transform: translateZ(0);
-      transition: 0.3s;
-      border-radius: 10px;
-    }
-    .cards .card img,
-    .news .card img {
-      width: 100%;
-      min-height: 100%;
-    }
-    .cards .card figcaption,
-    .news .card figcaption {
-      bottom: 0;
-      left: 0;
-      right: 0;
-      padding: 20px;
-      padding-bottom: 10px;
-      font-size: 20px;
-      background: none;
-      color: #fff;
-      transform: translateY(100%);
-      transition: 0.3s;
-      border-radius: 10px;
-    }
-    .cards .card:after,
-    .news .card:after {
-      content: '';
-      z-index: 10;
-      width: 200%;
-      height: 100%;
-      top: -90%;
-      left: -20px;
-      opacity: 0.1;
-      transform: rotate(45deg);
-      background: linear-gradient(to top, transparent, #fff 15%, rgba(255,255,255,0.5));
-      transition: 0.3s;
-    }
-    .cards .card:hover,
-    .news .card:hover,
-    .cards .card:focus,
-    .news .card:focus,
-    .cards .card:active,
-    .news .card:active {
-      box-shadow: 0 8px 16px 3px rgba(0,0,0,0.6);
-      transform: translateY(-3px) scale(1.05) rotateX(15deg);
-    }
-    .cards .card:hover figcaption,
-    .news .card:hover figcaption,
-    .cards .card:focus figcaption,
-    .news .card:focus figcaption,
-    .cards .card:active figcaption,
-    .news .card:active figcaption {
-      transform: none;
-    }
-    .cards .card:hover:after,
-    .news .card:hover:after,
-    .cards .card:focus:after,
-    .news .card:focus:after,
-    .cards .card:active:after,
-    .news .card:active:after {
-      transform: rotate(25deg);
-      top: -40%;
-      opacity: 0.15;
-    }
-    .news .article {
-      overflow: hidden;
-      width: 350px;
-      height: 235px;
-      margin: 20px;
-      border-radius: 10px;
-    }
-    .news .article img {
-      width: 100%;
-      min-height: 100%;
-      transition: 0.2s;
-    }
-    .news .article figcaption {
-      font-size: 14px;
-      text-shadow: 0 1px 0 rgba(51,51,51,0.3);
-      color: #fff;
-      left: 0;
-      right: 0;
-      top: 0;
-      bottom: 0;
-      padding: 40px;
-      box-shadow: 0 0 2px rgba(0,0,0,0.2);
-      background: rgba(6,18,53,0.6);
-      opacity: 0;
-      transform: scale(1.15);
-      transition: 0.2s;
-      border-radius: 10px;
-    }
-    .news .article figcaption h3 {
-      color: #3792e3;
-      font-size: 16px;
-      margin-bottom: 0;
-      font-weight: bold;
-    }
-    .news .article:hover img,
-    .news .article:focus img,
-    .news .article:active img {
-      filter: blur(3px);
-      transform: scale(0.97);
-    }
-    .news .article:hover figcaption,
-    .news .article:focus figcaption,
-    .news .article:active figcaption {
-      opacity: 1;
-      transform: none;
-    }
-    .btn-12{
-      position: relative;
-      right: 20px;
-      bottom: 20px;
-      border:none;
-      box-shadow: none;
-      width: 130px;
-      height: 40px;
-      line-height: 42px;
-      -webkit-perspective: 230px;
-      perspective: 230px;
-    }
-    .btn-12 span {
-      background: rgb(0,172,238);
-    background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
-      display: block;
-      position: absolute;
-      width: 130px;
-      height: 40px;
-      box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-       7px 7px 20px 0px rgba(0,0,0,.1),
-       4px 4px 5px 0px rgba(0,0,0,.1);
-      border-radius: 5px;
-      margin:0;
-      text-align: center;
-      -webkit-box-sizing: border-box;
-      -moz-box-sizing: border-box;
-      box-sizing: border-box;
-      -webkit-transition: all .3s;
-      transition: all .3s;
-    }
-    .btn-12 span:nth-child(1) {
-      box-shadow:
-       -7px -7px 20px 0px #fff9,
-       -4px -4px 5px 0px #fff9,
-       7px 7px 20px 0px #0002,
-       4px 4px 5px 0px #0001;
-      -webkit-transform: rotateX(90deg);
-      -moz-transform: rotateX(90deg);
-      transform: rotateX(90deg);
-      -webkit-transform-origin: 50% 50% -20px;
-      -moz-transform-origin: 50% 50% -20px;
-      transform-origin: 50% 50% -20px;
-    }
-    .btn-12 span:nth-child(2) {
-      -webkit-transform: rotateX(0deg);
-      -moz-transform: rotateX(0deg);
-      transform: rotateX(0deg);
-      -webkit-transform-origin: 50% 50% -20px;
-      -moz-transform-origin: 50% 50% -20px;
-      transform-origin: 50% 50% -20px;
-    }
-    .btn-12:hover span:nth-child(1) {
-      box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-       7px 7px 20px 0px rgba(0,0,0,.1),
-       4px 4px 5px 0px rgba(0,0,0,.1);
-      -webkit-transform: rotateX(0deg);
-      -moz-transform: rotateX(0deg);
-      transform: rotateX(0deg);
-    }
-    .btn-12:hover span:nth-child(2) {
-      box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-       7px 7px 20px 0px rgba(0,0,0,.1),
-       4px 4px 5px 0px rgba(0,0,0,.1);
-     color: transparent;
-      -webkit-transform: rotateX(-90deg);
-      -moz-transform: rotateX(-90deg);
-      transform: rotateX(-90deg);
-    }
+  <script src='https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js'></script><script  src="./script.js"></script>
 
-  </style>
-  <div class="wrapper">
 
-    <h2 id="Servival"><strong>Servival Games<span>( 1 )</span></strong></h2>
-  
-    <div class="cards">
-  
-      <figure class="card">
-  
-        <img src="https://www.minecraft.net/content/dam/games/minecraft/key-art/MC_One-Vanilla_285x380px.jpg" />
-  
-        <figcaption>
-          Minecraft
-          <br>
-          $30,-
-          <br>
-          <button>buy now</button>
-        </figcaption>
-  
-      </figure>
-      <figure class="card">
-  
-        <img src="https://images.penguinrandomhouse.com/cover/9781506732022" />
-  
-        <figcaption>
-          Horizon: Forbidden west
-          <br>
-          $70,-
-          <br>
-          <button>buy now</button>
-        </figcaption>
-  
-      </figure>
-      <figure class="card">
-  
-        <img src="https://m.media-amazon.com/images/M/MV5BY2M5Y2I4MjItNWJkZC00M2Y1LThmNTMtNjVlZDhiYWRjODhhXkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_.jpg" />
-  
-        <figcaption>
-          Horizon: Zero dawn
-          <br>
-          $70,-
-          <br>
-          <button>buy now</button>
-        </figcaption>
-  
-      </figure>
-      
-      
-  
-    </div>
 
-    <h2 id="Race"><strong>Race Games<span>( 1 )</span></strong></h2>
-  
-    <div class="cards">
-  
-      <figure class="card">
-  
-        <img src="https://w0.peakpx.com/wallpaper/609/748/HD-wallpaper-forza-horizon-4-need-speed-most-wanted.jpg" />
-  
-        <figcaption>
-          Forza horizon 4
-          <br>
-          $30,-
-          <br>
-          <button>buy now</button>
-        </figcaption>
-  
-      </figure>
-      <figure class="card">
-  
-        <img src="https://images.penguinrandomhouse.com/cover/9781506732022" />
-  
-        <figcaption>
-          Horizon: Forbidden west
-          <br>
-          $70,-
-          <br>
-          <button>buy now</button>
-        </figcaption>
-  
-      </figure>
-      <figure class="card">
-  
-        <img src="https://m.media-amazon.com/images/M/MV5BY2M5Y2I4MjItNWJkZC00M2Y1LThmNTMtNjVlZDhiYWRjODhhXkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_.jpg" />
-  
-        <figcaption>
-          Horizon: Zero dawn
-          <br>
-          $70,-
-          <br>
-          <button>buy now</button>
-        </figcaption>
-  
-      </figure>
-      <figure class="card">
-  
-        <img src="https://media.s-bol.com/4L6QyQZR87YV/91QXN1J/548x840.jpg" />
-  
-        <figcaption>
-          Assassins creed odyssey
-          <br>
-          $15,-
-          <br>
-          <button>buy now</button>
-        </figcaption>
-  
-      </figure>
+
+<div style="z-index: 400;" id="Voorwaarden" class="popup">
+  <div class="popup__container">
+    <a href="#" class="popup__close">
+      <span class="screen-reader">close</span>
+    </a>  
+    <div class="popup__content">
+      <h1 class="popup__title r-title">Voorwaarden</h1>
+      <p>Inhoudsopgave</p>
+
+      <p>Artikel 1 - Definities<br>
+      Artikel 2 - Identiteit van de ondernemer<br>
+      Artikel 3 - Toepasselijkheid<br>
+      Artikel 4 - Het aanbod<br>
+      Artikel 5 - De overeenkomst<br>
+      Artikel 6 - Herroepingsrecht<br>
+      Artikel 7 - Kosten in geval van herroeping<br>
+      Artikel 8 - Uitsluiting herroepingsrecht<br>
+      Artikel 9 - De prijs<br>
+      Artikel 10 - Conformiteit en garantie<br>
+      Artikel 11 - Levering en uitvoering<br>
+      Artikel 12 - Duurtransacties: duur, opzegging en verlenging<br>
+      Artikel 13 - Betaling<br>
+      Artikel 14 - Klachtenregeling<br>
+      Artikel 15 - Geschillen<br>
+      Artikel 16 - Aanvullende of afwijkende bepalingen</p>
+
+      <p>In deze voorwaarden wordt verstaan onder:</p>
+
+      <p>Bedenktijd: de termijn waarbinnen de consument gebruik kan maken van zijn herroepingsrecht; Lees alles over bedenktijd</p>
+
+      <p>Consument: de natuurlijke persoon die niet handelt in de uitoefening van beroep of bedrijf en een overeenkomst op afstand aangaat met de ondernemer;</p>
+
+      <p>Dag: kalenderdag;</p>
+
+      <p>Duurtransactie: een overeenkomst op afstand met betrekking tot een reeks van producten en/of diensten, waarvan de leverings- en/of afnameverplichting in de tijd is gespreid;</p>
+
+      <p>Duurzame gegevensdrager: elk middel dat de consument of ondernemer in staat stelt om informatie die aan hem persoonlijk is gericht, op te slaan op een manier die toekomstige raadpleging en ongewijzigde reproductie van de opgeslagen informatie mogelijk maakt.</p>
+
+      <p>Herroepingsrecht: de mogelijkheid voor de consument om binnen de bedenktijd af te zien van de overeenkomst op afstand;</p>
+
+      <p>Modelformulier: het modelformulier voor herroeping die de ondernemer ter beschikking stelt die een consument kan invullen wanneer hij gebruik wil maken van zijn herroepingsrecht.</p>
+
+      <p>Ondernemer: de natuurlijke of rechtspersoon die producten en/of diensten op afstand aan consumenten aanbiedt;</p>
+
+      <p>Overeenkomst op afstand: een overeenkomst waarbij in het kader van een door de ondernemer georganiseerd systeem voor verkoop op afstand van producten en/of diensten, tot en met het sluiten van de overeenkomst uitsluitend gebruik gemaakt wordt van &eacute;&eacute;n of meer technieken voor communicatie op afstand;</p>
+
+      <p>Techniek voor communicatie op afstand: middel dat kan worden gebruikt voor het sluiten van een overeenkomst, zonder dat consument en ondernemer gelijktijdig in dezelfde ruimte zijn samengekomen.</p>
+
+      <p>Algemene Voorwaarden: de onderhavige Algemene Voorwaarden van de ondernemer.</p>
+
+      <p>
+      Artikel 2 - Identiteit van de ondernemer</p>
+
+      <p>PlayDex<br>
+      Beneluxlaan 30</p>
+
+      <p>3844ak Harderwijk<br>
+      Nederland</p>
+
+      <p>T (063) 045-5037<br>
+      E silkepilon2009@gmai.com<br>
+      KVK<br>
+      BTW nummer<br>
+      Artikel 3 - Toepasselijkheid</p>
+
+      <p>
+      Deze algemene voorwaarden zijn van toepassing op elk aanbod van de ondernemer en op elke tot stand gekomen overeenkomst op afstand en bestellingen tussen ondernemer en consument.</p>
+
+      <p>Voordat de overeenkomst op afstand wordt gesloten, wordt de tekst van deze algemene voorwaarden aan de consument beschikbaar gesteld. Indien dit redelijkerwijs niet mogelijk is, zal voordat de overeenkomst op afstand wordt gesloten, worden aangegeven dat de algemene voorwaarden bij de ondernemer in te zien en zij op zverzoek van de consument zo spoedig mogelijk kosteloos worden toegezonden.</p>
+
+      <p>Indien de overeenkomst op afstand elektronisch wordt gesloten, kan in afwijking van het vorige lid en voordat de overeenkomst op afstand wordt gesloten, de tekst van deze algemene voorwaarden langs elektronische weg aan de consument ter beschikking worden gesteld op zodanige wijze dat deze door de consument op een eenvoudige manier kan worden opgeslagen op een duurzame gegevensdrager. Indien dit redelijkerwijs niet mogelijk is, zal voordat de overeenkomst op afstand wordt gesloten, worden aangegeven waar van de algemene voorwaarden langs elektronische weg kan worden kennisgenomen en dat zij op verzoek van de consument langs elektronische weg of op andere wijze kosteloos zullen worden toegezonden.</p>
+
+      <p>Voor het geval dat naast deze algemene voorwaarden tevens specifieke product- of dienstenvoorwaarden van toepassing zijn, is het tweede en derde lid van overeenkomstige toepassing en kan de consument zich in geval van tegenstrijdige algemene voorwaarden steeds beroepen op de toepasselijke bepaling die voor hem het meest gunstig is.</p>
+
+      <p>Indien &eacute;&eacute;n of meerdere bepalingen in deze algemene voorwaarden op enig moment geheel of gedeeltelijk nietig zijn of vernietigd worden, dan blijft de overeenkomst en deze voorwaarden voor het overige in stand en zal de betreffende bepaling in onderling overleg onverwijld vervangen worden door een bepaling dat de strekking van het oorspronkelijke zoveel mogelijk benaderd.</p>
+
+      <p>Situaties die niet in deze algemene voorwaarden zijn geregeld, dienen te worden beoordeeld &lsquo;naar de geest&rsquo; van deze algemene voorwaarden.</p>
+
+      <p>Onduidelijkheden over de uitleg of inhoud van &eacute;&eacute;n of meerdere bepalingen van onze voorwaarden, dienen uitgelegd te worden &lsquo;naar de geest&rsquo; van deze algemene voorwaarden.</p>
+
+      <p>
+      Artikel 4 - Het aanbod</p>
+
+      <p>
+      Indien een aanbod een beperkte geldigheidsduur heeft of onder voorwaarden geschiedt, wordt dit nadrukkelijk in het aanbod vermeld.</p>
+
+      <p>Het aanbod is vrijblijvend. De ondernemer is gerechtigd het aanbod te wijzigen en aan te passen.</p>
+
+      <p>Het aanbod bevat een volledige en nauwkeurige omschrijving van de aangeboden producten en/of diensten. De beschrijving is voldoende gedetailleerd om een goede beoordeling van het aanbod door de consument mogelijk te maken. Als de ondernemer gebruik maakt van afbeeldingen zijn deze een waarheidsgetrouwe weergave van de aangeboden producten en/of diensten. Kennelijke vergissingen of kennelijke fouten in het aanbod binden de ondernemer niet.</p>
+
+      <p>Alle afbeeldingen, specificaties gegevens in het aanbod zijn indicatie en kunnen geen aanleiding zijn tot schadevergoeding of ontbinding van de overeenkomst.</p>
+
+      <p>Afbeeldingen bij producten zijn een waarheidsgetrouwe weergave van de aangeboden producten. Ondernemer kan niet garanderen dat de weergegeven kleuren exact overeenkomen met de echte kleuren van de producten.</p>
+
+      <p>Elk aanbod bevat zodanige informatie, dat voor de consument duidelijk is wat de rechten en verplichtingen zijn, die aan de aanvaarding van het aanbod zijn verbonden. Dit betreft in het bijzonder:</p>
+
+      <p>de prijs inclusief belastingen;</p>
+
+      <p>de eventuele kosten van verzending;</p>
+
+      <p>de wijze waarop de overeenkomst tot stand zal komen en welke handelingen daarvoor nodig zijn;</p>
+
+      <p>het al dan niet van toepassing zijn van het herroepingsrecht;</p>
+
+      <p>de wijze van betaling, aflevering en uitvoering van de overeenkomst;</p>
+
+      <p>de termijn voor aanvaarding van het aanbod, dan wel de termijn waarbinnen de ondernemer de prijs garandeert;</p>
+
+      <p>de hoogte van het tarief voor communicatie op afstand indien de kosten van het gebruik van de techniek voor communicatie op afstand worden berekend op een andere grondslag dan het reguliere basistarief voor het gebruikte communicatiemiddel;</p>
+
+      <p>of de overeenkomst na de totstandkoming wordt gearchiveerd, en zo ja op welke deze voor de consument te raadplegen is;</p>
+
+      <p>de manier waarop de consument, voor het sluiten van de overeenkomst, de door hem in het kader van de overeenkomst verstrekte gegevens kan controleren en indien gewenst herstellen;</p>
+
+      <p>de eventuele andere talen waarin, naast het Nederlands, de overeenkomst kan worden gesloten;</p>
+
+      <p>de gedragscodes waaraan de ondernemer zich heeft onderworpen en de wijze waarop de consument deze gedragscodes langs elektronische weg kan raadplegen; en</p>
+
+      <p>de minimale duur van de overeenkomst op afstand in geval van een duurtransactie.</p>
+
+      <p>
+      Artikel 5 - De overeenkomst</p>
+
+      <p>
+      De overeenkomst komt, onder voorbehoud van het bepaalde in lid 4, tot stand op het moment van aanvaarding door de consument van het aanbod en het voldoen aan de daarbij gestelde voorwaarden.</p>
+
+      <p>Indien de consument het aanbod langs elektronische weg heeft aanvaard, bevestigt de ondernemer onverwijld langs elektronische weg de ontvangst van de aanvaarding van het aanbod. Zolang de overeenkomst van deze aanvaarding niet door de ondernemer is bevestigd, kan de consument de overeenkomst ontbinden.</p>
+
+      <p>Indien de overeenkomst elektronisch tot stand komt, treft de ondernemer passende technische en organisatorische maatregelen ter beveiliging van de elektronische overdracht van data en zorgt hij voor een veilige webomgeving. Indien de consument elektronisch kan betalen, zal de ondernemer daartoe passende veiligheidsmaatregelen in acht nemen.</p>
+
+      <p>De ondernemer kan zich - binnen wettelijke kaders - op de hoogte stellen of de consument aan zijn betalingsverplichtingen kan voldoen, evenals van al die feiten en factoren die van belang zijn voor een verantwoord aangaan van de overeenkomst op afstand. Indien de ondernemer op grond van dit onderzoek goede gronden heeft om de overeenkomst niet aan te gaan, is hij gerechtigd gemotiveerd een bestelling of aanvraag te weigeren of aan de uitvoering bijzondere voorwaarden te verbinden.</p>
+
+      <p>De ondernemer zal bij het product of dienst aan de consument de volgende informatie, schriftelijk of op zodanige wijze dat deze door de consument op een toegankelijke manier kan worden opgeslagen op een duurzame gegevensdrager, meesturen:</p>
+
+      <p>het bezoekadres van de vestiging van de ondernemer waar de consument met klachten terecht kan;</p>
+
+      <p>de voorwaarden waaronder en de wijze waarop de consument van het herroepingsrecht gebruik kan maken, dan wel een duidelijke melding inzake het uitgesloten zijn van het herroepingsrecht;</p>
+
+      <p>de informatie over garanties en bestaande service na aankoop;</p>
+
+      <p>de in artikel 4 lid 3 van deze voorwaarden opgenomen gegevens, tenzij de ondernemer deze gegevens al aan de consument heeft verstrekt v&oacute;&oacute;r de uitvoering van de overeenkomst;</p>
+
+      <p>de vereisten voor opzegging van de overeenkomst indien de overeenkomst een duur heeft van meer dan &eacute;&eacute;n jaar of van onbepaalde duur is.</p>
+
+      <p></p>
+
+      <p>In geval van een duurtransactie is de bepaling in het vorige lid slechts van toepassing op de eerste levering.</p>
+
+      <p>Iedere overeenkomst wordt aangegaan onder de opschortende voorwaarden van voldoende beschikbaarheid van de betreffende producten.</p>
+
+      <p>
+      Artikel 6 - Herroepingsrecht</p>
+
+      <p>Bij levering van producten:</p>
+
+      <p>Bij de aankoop van producten heeft de consument de mogelijkheid de overeenkomst zonder opgave van redenen te ontbinden gedurende 14 dagen. Deze bedenktermijn gaat in op de dag na ontvangst van het product door de consument of een vooraf door de consument aangewezen en aan de ondernemer bekend gemaakte vertegenwoordiger.</p>
+
+      <p>Tijdens de bedenktijd zal de consument zorgvuldig omgaan met het product en de verpakking. Hij zal het product slechts in die mate uitpakken of gebruiken voor zover dat nodig is om te kunnen beoordelen of hij het product wenst te behouden. Indien hij van zijn herroepingsrecht gebruik maakt, zal hij het product met alle geleverde toebehoren en - indien redelijkerwijze mogelijk - in de originele staat en verpakking aan de ondernemer retourneren, conform de door de ondernemer verstrekte redelijke en duidelijke instructies.</p>
+
+      <p>Wanneer de consument gebruik wenst te maken van zijn herroepingsrecht is hij verplicht dit binnen 14 dagen, na ontvangst van het product, kenbaar te maken aan de ondernemer. Het kenbaar maken dient de consument te doen middels het modelformulier of door middel van een ander communicatiemiddel zoals per e-mail. Nadat de consument kenbaar heeft gemaakt gebruik te willen maken van zijn herroepingsrecht dient de klant het product binnen 14 dagen retour te sturen. De consument dient te bewijzen dat de geleverde zaken tijdig zijn teruggestuurd, bijvoorbeeld door middel van een bewijs van verzending.</p>
+
+      <p>Indien de klant na afloop van de in lid 2 en 3 genoemde termijnen niet kenbaar heeft gemaakt gebruik te willen maken van zijn herroepingsrecht resp. het product niet aan de ondernemer heeft teruggezonden, is de koop een feit.</p>
+
+      <p>
+      Bij levering van diensten:</p>
+
+      <p>Bij levering van diensten heeft de consument de mogelijkheid de overeenkomst zonder opgave van redenen te ontbinden gedurende ten minste 14 dagen, ingaande op de dag van het aangaan van de overeenkomst.</p>
+
+      <p>Om gebruik te maken van zijn herroepingsrecht, zal de consument zich richten naar de door de ondernemer bij het aanbod en/of uiterlijk bij de levering ter zake verstrekte redelijke en duidelijke instructies.</p>
+
+      <p>
+      Artikel 7 - Kosten in geval van herroeping</p>
+
+      <p>
+      Indien de consument gebruik maakt van zijn herroepingsrecht, komen ten hoogste de kosten van terugzending voor zijn rekening.</p>
+
+      <p>Indien de consument een bedrag betaald heeft, zal de ondernemer dit bedrag zo spoedig mogelijk, doch uiterlijk binnen 14 dagen na herroeping, terugbetalen. Hierbij is wel de voorwaarde dat het product reeds terug ontvangen is door de webwinkelier of sluitend bewijs van complete terugzending overlegd kan worden. Terugbetaling zal geschieden via de zelfde betaalmethode die door de consument is gebruikt tenzij de consument nadrukkelijk toestemming geeft voor een andere betaalmethode.</p>
+
+      <p>Bij beschadiging van het product door onzorgvuldige omgang door de consument zelf is de consument aansprakelijk voor eventuele waardevermindering van het product.</p>
+
+      <p>De consument kan niet aansprakelijk worden gesteld voor waardevermindering van het product wanneer door de ondernemer niet alle wettelijk verplichte informatie over het herroepingsrecht is verstrekt, dit dient te gebeuren voor het sluiten van de koopovereenkomst.</p>
+
+      <p>
+      Artikel 8 - Uitsluiting herroepingsrecht</p>
+
+      <p>
+      De ondernemer kan het herroepingsrecht van de consument uitsluiten voor producten zoals omschreven in lid 2 en 3. De uitsluiting van het herroepingsrecht geldt slechts indien de ondernemer dit duidelijk in het aanbod, althans tijdig voor het sluiten van de overeenkomst, heeft vermeld.</p>
+
+      <p>Uitsluiting van het herroepingsrecht is slechts mogelijk voor producten:</p>
+
+      <p>die door de ondernemer tot stand zijn aangebracht overeenkomstig specificaties van de consument;</p>
+
+      <p>die duidelijk persoonlijk van aard zijn;</p>
+
+      <p>die door hun aard niet kunnen worden teruggezonden;</p>
+
+      <p>die snel kunnen bederven of verouderen;</p>
+
+      <p>waarvan de prijs gebonden is aan schommelingen op de financi&euml;le markt waarop de ondernemer geen invloed heeft;</p>
+
+      <p>voor losse kranten en tijdschriften;</p>
+
+      <p>voor audio- en video-opnamen en computersoftware waarvan de consument de verzegeling heeft verboeren;</p>
+
+      <p>voor hygi&euml;nische producten waarvan de consument de verzegeling heeft verbroken.</p>
+
+      <p></p>
+
+      <p>Uitsluiting van het herroepingsrecht is slechts mogelijk voor diensten:</p>
+
+      <p>betreffende logies, vervoer, restaurantbedrijf of vrijetijdsbesteding te verrichten op een bepaalde datum of tijdens een bepaalde periode;</p>
+
+      <p>waarvan de levering met uitdrukkelijke instemming van de consument is begonnen voordat de bedenktijd is verstreken;</p>
+
+      <p>betreffende weddenschappen en loterijen.</p>
+
+      <p></p>
+
+      <p>
+      Artikel 9 - De prijs</p>
+
+      <p>
+      Gedurende de in het aanbod vermelde geldigheidsduur worden de prijzen van de aangeboden producten en/of diensten niet verhoogd, behoudens prijswijzigingen als gevolg van veranderingen in btw-tarieven.</p>
+
+      <p>In afwijking van het vorige lid kan de ondernemer producten of diensten waarvan de prijzen gebonden zijn aan schommelingen op de financi&euml;le markt en waar de ondernemer geen invloed op heeft, met variabele prijzen aanbieden. Deze gebondenheid aan schommelingen en het feit dat eventueel vermelde prijzen richtprijzen zijn, worden bij het aanbod vermeld.</p>
+
+      <p>Prijsverhogingen binnen 3 maanden na de totstandkoming van de overeenkomst zijn alleen toegestaan indien zij het gevolg zijn van wettelijke regelingen of bepalingen.</p>
+
+      <p>Prijsverhogingen vanaf 3 maanden na de totstandkoming van de overeenkomst zijn alleen toegestaan indien de ondernemer dit bedongen heeft en:</p>
+
+      <p>deze het gevolg zijn van wettelijke regelingen of bepalingen; of</p>
+
+      <p>de consument de bevoegdheid heeft de overeenkomst op te zeggen met ingang van de dag waarop de prijsverhoging ingaat.</p>
+
+      <p></p>
+
+      <p>De in het aanbod van producten of diensten genoemde prijzen zijn inclusief btw.</p>
+
+      <p>Alle prijzen zijn onder voorbehoud van druk &ndash; en zetfouten. Voor de gevolgen van druk &ndash; en zetfouten wordt geen aansprakelijkheid aanvaard. Bij druk &ndash; en zetfouten is de ondernemer niet verplicht het product volgens de foutieve prijs te leveren.</p>
+
+      <p>
+      Artikel 10 - Conformiteit en garantie</p>
+
+      <p>
+      De ondernemer staat er voor in dat de producten en/of diensten voldoen aan de overeenkomst, de in het aanbod vermelde specificaties, aan de redelijke eisen van deugdelijkheid en/of bruikbaarheid en de op de datum van de totstandkoming van de overeenkomst bestaande wettelijke bepalingen en/of overheidsvoorschriften. Indien overeengekomen staat de ondernemer er tevens voor in dat het product geschikt is voor ander dan normaal gebruik.</p>
+
+      <p>Een door de ondernemer, fabrikant of importeur verstrekte garantie doet niets af aan de wettelijke rechten en vorderingen die de consument op grond van de overeenkomst tegenover de ondernemer kan doen gelden.</p>
+
+      <p>Eventuele gebreken of verkeerd geleverde producten dienen binnen 2 maanden na levering aan de ondernemer schriftelijk te worden gemeld. Terugzending van de producten dient te geschieden in de originele verpakking en in nieuwstaat verkerend.</p>
+
+      <p>De garantietermijn van de ondernemer komt overeen met de fabrieksgarantietermijn. De ondernemer is echter te nimmer verantwoordelijk voor de uiteindelijke geschiktheid van de producten voor elke individuele toepassing door de consument, noch voor eventuele adviezen ten aanzien van het gebruik of de toepassing van de producten.</p>
+
+      <p>De garantie geldt niet indien:</p>
+
+      <p>de consument de geleverde producten zelf heeft gerepareerd en/of bewerkt of door derden heeft laten repareren en/of bewerken;</p>
+
+      <p>de geleverde producten aan abnormale omstandigheden zijn blootgesteld of anderszins onzorgvuldig worden behandeld of in strijd zijn met de aanwijzingen van de ondernemer en/of op de verpakking behandeld zijn;</p>
+
+      <p>de ondeugdelijkheid geheel of gedeeltelijk het gevolg is van voorschriften die de overheid heeft gesteld of zal stellen ten aanzien van de aard of de kwaliteit van de toegepaste materialen.</p>
+
+      <p></p>
+
+      <p>
+      Artikel 11 - Levering en uitvoering</p>
+
+      <p>
+      De ondernemer zal de grootst mogelijke zorgvuldigheid in acht nemen bij het in ontvangst nemen en bij de uitvoering van bestellingen van producten en bij de beoordeling van aanvragen tot verlening van diensten.</p>
+
+      <p>Als plaats van levering geldt het adres dat de consument aan het bedrijf kenbaar heeft gemaakt.</p>
+
+      <p>Met inachtneming van hetgeen hierover in lid 4 van dit artikel is vermeld, zal het bedrijf geaccepteerde bestellingen met bekwame spoed doch uiterlijk binnen 30 dagen uitvoeren, tenzij consument akkoord is gegaan met een langere leveringstermijn. Indien de bezorging vertraging ondervindt, of indien een bestelling niet dan wel slechts gedeeltelijk kan worden uitgevoerd, ontvangt de consument hiervan uiterlijk 30 dagen nadat hij de bestelling geplaatst heeft bericht. De consument heeft in dat geval het recht om de overeenkomst zonder kosten te ontbinden. De consument heeft geen recht op een schadevergoeding.</p>
+
+      <p>Alle levertermijnen zijn indicatief. Aan eventuele genoemde termijnen kan de consument geen rechten ontlenen. Overschrijding van een termijn geeft de consument geen recht op schadevergoeding.</p>
+
+      <p>In geval van ontbinding conform het lid 3 van dit artikel zal de ondernemer het bedrag dat de consument betaald heeft zo spoedig mogelijk, doch uiterlijk binnen 14 dagen na ontbinding, terugbetalen.</p>
+
+      <p>Indien levering van een besteld product onmogelijk blijkt te zijn, zal de ondernemer zich inspannen om een vervangend artikel beschikbaar te stellen. Uiterlijk bij de bezorging zal op duidelijke en begrijpelijke wijze worden gemeld dat een vervangend artikel wordt geleverd. Bij vervangende artikelen kan het herroepingsrecht niet worden uitgesloten. De kosten van een eventuele retourzending zijn voor rekening van de ondernemer.</p>
+
+      <p>Het risico van beschadiging en/of vermissing van producten berust bij de ondernemer tot het moment van bezorging aan de consument of een vooraf aangewezen en aan de ondernemer bekend gemaakte vertegenwoordiger, tenzij uitdrukkelijk anders is overeengekomen.</p>
+
+      <p>
+      Artikel 12 - Duurtransacties: duur, opzegging en verlenging</p>
+
+      <p>Opzegging</p>
+
+      <p>De consument kan een overeenkomst die voor onbepaalde tijd is aangegaan en die strekt tot het geregeld afleveren van producten (elektriciteit daaronder begrepen) of diensten, te allen tijde opzeggen met inachtneming van daartoe overeengekomen opzeggingsregels en een opzegtermijn van ten hoogste &eacute;&eacute;n maand.</p>
+
+      <p>De consument kan een overeenkomst die voor bepaalde tijd is aangegaan en die strekt tot het geregeld afleveren van producten (elektriciteit daaronder begrepen) of diensten, te allen tijde tegen het einde van de bepaalde duur opzeggen met inachtneming van daartoe overeengekomen opzeggingsregels en een opzegtermijn van ten hoogste &eacute;&eacute;n maand.</p>
+
+      <p>De consument kan de in de vorige leden genoemde overeenkomsten:</p>
+
+      <p>te allen tijde opzeggen en niet beperkt worden tot opzegging op een bepaald tijdstip of in een bepaalde periode;</p>
+
+      <p>tenminste opzeggen op dezelfde wijze als zij door hem zijn aangegaan;</p>
+
+      <p>altijd opzeggen met dezelfde opzegtermijn als de ondernemer voor zichzelf heeft bedongen.</p>
+
+      <p></p>
+
+      <p>
+      Verlenging</p>
+
+      <p>Een overeenkomst die voor bepaalde tijd is aangegaan en die strekt tot het geregeld afleveren van producten (elektriciteit daaronder begrepen) of diensten, mag niet stilzwijgend worden verlengd of vernieuwd voor een bepaalde duur.</p>
+
+      <p>In afwijking van het vorige lid mag een overeenkomst die voor bepaalde tijd is aangegaan en die strekt tot het geregeld afleveren van dag- nieuws- en weekbladen en tijdschriften stilzwijgend worden verlengd voor een bepaalde duur van maximaal drie maanden, als de consument deze verlengde overeenkomst tegen het einde van de verlenging kan opzeggen met een opzegtermijn van ten hoogste &eacute;&eacute;n maand.</p>
+
+      <p>Een overeenkomst die voor bepaalde tijd is aangegaan en die strekt tot het geregeld afleveren van producten of diensten, mag alleen stilzwijgend voor onbepaalde duur worden verlengd als de consument te allen tijde mag opzeggen met een opzegtermijn van ten hoogste &eacute;&eacute;n maand en een opzegtermijn van ten hoogste drie maanden in geval de overeenkomst strekt tot het geregeld, maar minder dan eenmaal per maand, afleveren van dag-, nieuws- en weekbladen en tijdschriften.</p>
+
+      <p>Een overeenkomst met beperkte duur tot het geregeld ter kennismaking afleveren van dag-, nieuws- en weekbladen en tijdschriften (proef- of kennismakingsabonnement) wordt niet stilzwijgend voortgezet en eindigt automatisch na afloop van de proef- of kennismakingsperiode.</p>
+
+      <p>
+      Duur</p>
+
+      <p>Als een overeenkomst een duur van meer dan een jaar heeft, mag de consument na een jaar de overeenkomst te allen tijde met een opzegtermijn van ten hoogste een maand opzeggen, tenzij de redelijkheid en billijkheid zich tegen opzegging v&oacute;&oacute;r het einde van de overeengekomen duur verzetten.</p>
+
+      <p>
+      Artikel 13 - Betaling</p>
+
+      <p>
+      Voor zover niet anders is overeengekomen, dienen de door de consument verschuldigde bedragen te worden voldaan binnen 7 werkdagen na het ingaan van de bedenktermijn als bedoeld in artikel 6 lid 1. In geval van een overeenkomst tot het verlenen van een dienst, vangt deze termijn aan nadat de consument de bevestiging van de overeenkomst heeft ontvangen.</p>
+
+      <p>De consument heeft de plicht om onjuistheden in verstrekte of vermelde betaalgegevens onverwijld aan de ondernemer te melden.</p>
+
+      <p>In geval van wanbetaling van de consument heeft de ondernemer behoudens wettelijke beperkingen, het recht om de vooraf aan de consument kenbaar gemaakte redelijke kosten in rekening te brengen.</p>
+
+      <p>
+      Artikel 14 - Klachtenregeling</p>
+
+      <p>
+      De ondernemer beschikt over een voldoende bekend gemaakte klachtenprocedure en behandelt de klacht overeenkomstig deze klachtenprocedure.</p>
+
+      <p>Klachten over de uitvoering van de overeenkomst moeten binnen 2 maanden volledig en duidelijk omschreven worden ingediend bij de ondernemer, nadat de consument de gebreken heeft geconstateerd.</p>
+
+      <p>Bij de ondernemer ingediende klachten worden binnen een termijn van 14 dagen gerekend vanaf de datum van ontvangst beantwoord. Als een klacht een voorzienbaar langere verwerkingstijd vraagt, wordt door de ondernemer binnen de termijn van 14 dagen geantwoord met een bericht van ontvangst en een indicatie wanneer de consument een meer uitvoerig antwoord kan verwachten.</p>
+
+      <p>Indien de klacht niet in onderling overleg kan worden opgelost ontstaat een geschil dat vatbaar is voor de geschillenregeling.</p>
+
+      <p>Bij klachten dient een consument zich allereerst te wenden tot de ondernemer. Indien de webwinkel is aangesloten bij Stichting WebwinkelKeur en bij klachten die niet in onderling overleg opgelost kunnen worden dient de consument zich te wenden tot Stichting WebwinkelKeur (www.webwinkelkeur.nl), deze zal gratis bemiddelen. Controleer of deze webwinkel een lopend lidmaatschap heeft via https://www.webwinkelkeur.nl/ledenlijst/. Mocht er dan nog niet tot een oplossing gekomen worden, heeft de consument de mogelijkheid om zijn klacht te laten behandelen door de door Stichting WebwinkelKeur aangestelde onafhankelijke geschillencommissie, de uitspraak hiervan is bindend en zowel ondernemer als consument stemmen in met deze bindende uitspraak. Aan het voorleggen van een geschil aan deze geschillencommissie zijn kosten verbonden die door de consument betaald dienen te worden aan de betreffende commissie. Tevens is het mogelijk om klachten aan te melden via het Europees ODR platform (http://ec.europa.eu/odr).</p>
+
+      <p>Een klacht schort de verplichtingen van de ondernemer niet op, tenzij de ondernemer schriftelijk anders aangeeft.</p>
+
+      <p>Indien een klacht gegrond wordt bevonden door de ondernemer, zal de ondernemer naar haar keuze of de geleverde producten kosteloos vervangen of repareren.</p>
+
+      <p>
+      Artikel 15 - Geschillen</p>
+
+      <p>
+      Op overeenkomsten tussen de ondernemer en de consument waarop deze algemene voorwaarden betrekking hebben, is uitsluitend Nederlands recht van toepassing. Ook indien de consument woonachtig is in het buitenland.</p>
+
+      <p>Het Weens Koopverdrag is niet van toepassing.</p>
+
+      <p>
+      Artikel 16 - Aanvullende of afwijkende bepalingen</p>
+
+      <p>Aanvullende dan wel van deze algemene voorwaarden afwijkende bepalingen mogen niet ten nadele van de consument zijn en dienen schriftelijk te worden vastgelegd dan wel op zodanige wijze dat deze door de consument op een toegankelijke manier kunnen worden opgeslagen op een duurzame gegevensdrager.<br>
+      </p>
       
-  
     </div>
-    <h2 id="Race"><strong>Race Games<span>( 1 )</span></strong></h2>
-  
-    <div class="cards">
-  
-      <figure class="card">
-  
-        <img src="https://w0.peakpx.com/wallpaper/609/748/HD-wallpaper-forza-horizon-4-need-speed-most-wanted.jpg" />
-  
-        <figcaption>
-          Forza horizon 4
-          <br>
-          $30,-
-          <br>
-          <button>buy now</button>
-        </figcaption>
-  
-      </figure>
-      <figure class="card">
-  
-        <img src="https://images.penguinrandomhouse.com/cover/9781506732022" />
-  
-        <figcaption>
-          Horizon: Forbidden west
-          <br>
-          $70,-
-          <br>
-          <button>buy now</button>
-        </figcaption>
-  
-      </figure>
-      <figure class="card">
-  
-        <img src="https://m.media-amazon.com/images/M/MV5BY2M5Y2I4MjItNWJkZC00M2Y1LThmNTMtNjVlZDhiYWRjODhhXkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_.jpg" />
-  
-        <figcaption>
-          Horizon: Zero dawn
-          <br>
-          $70,-
-          <br>
-          <button>buy now</button>
-        </figcaption>
-  
-      </figure>
-      <figure class="card">
-  
-        <img src="https://media.s-bol.com/4L6QyQZR87YV/91QXN1J/548x840.jpg" />
-  
-        <figcaption>
-          Assassins creed odyssey
-          <br>
-          $15,-
-          <br>
-          <button>buy now</button>
-        </figcaption>
-  
-      </figure>
-      
-  
-    </div>
-    <h2 id="Race"><strong>Race Games<span>( 1 )</span></strong></h2>
-  
-    <div class="cards">
-  
-      <figure class="card">
-  
-        <img src="https://w0.peakpx.com/wallpaper/609/748/HD-wallpaper-forza-horizon-4-need-speed-most-wanted.jpg" />
-  
-        <figcaption>
-          Forza horizon 4
-          <br>
-          $30,-
-          <br>
-          <button>buy now</button>
-        </figcaption>
-  
-      </figure>
-      <figure class="card">
-  
-        <img src="https://images.penguinrandomhouse.com/cover/9781506732022" />
-  
-        <figcaption>
-          Horizon: Forbidden west
-          <br>
-          $70,-
-          <br>
-          <button>buy now</button>
-        </figcaption>
-  
-      </figure>
-      <figure class="card">
-  
-        <img src="https://m.media-amazon.com/images/M/MV5BY2M5Y2I4MjItNWJkZC00M2Y1LThmNTMtNjVlZDhiYWRjODhhXkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_.jpg" />
-  
-        <figcaption>
-          Horizon: Zero dawn
-          <br>
-          $70,-
-          <br>
-          <button>buy now</button>
-        </figcaption>
-  
-      </figure>
-      <figure class="card">
-  
-        <img src="https://media.s-bol.com/4L6QyQZR87YV/91QXN1J/548x840.jpg" />
-  
-        <figcaption>
-          Assassins creed odyssey
-          <br>
-          $15,-
-          <br>
-          <button>buy now</button>
-        </figcaption>
-  
-      </figure>
-      
-  
-    </div>
-    <h2 id="Race"><strong>Race Games<span>( 1 )</span></strong></h2>
-  
-    <div class="cards">
-  
-      <figure class="card">
-  
-        <img src="https://w0.peakpx.com/wallpaper/609/748/HD-wallpaper-forza-horizon-4-need-speed-most-wanted.jpg" />
-  
-        <figcaption>
-          Forza horizon 4
-          <br>
-          $30,-
-          <br>
-          <button>buy now</button>
-        </figcaption>
-  
-      </figure>
-      <figure class="card">
-  
-        <img src="https://images.penguinrandomhouse.com/cover/9781506732022" />
-  
-        <figcaption>
-          Horizon: Forbidden west
-          <br>
-          $70,-
-          <br>
-          <button>buy now</button>
-        </figcaption>
-  
-      </figure>
-      <figure class="card">
-  
-        <img src="https://m.media-amazon.com/images/M/MV5BY2M5Y2I4MjItNWJkZC00M2Y1LThmNTMtNjVlZDhiYWRjODhhXkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_.jpg" />
-  
-        <figcaption>
-          Horizon: Zero dawn
-          <br>
-          $70,-
-          <br>
-          <button>buy now</button>
-        </figcaption>
-  
-      </figure>
-      <figure class="card">
-  
-        <img src="https://media.s-bol.com/4L6QyQZR87YV/91QXN1J/548x840.jpg" />
-  
-        <figcaption>
-          Assassins creed odyssey
-          <br>
-          $15,-
-          <br>
-          <button>buy now</button>
-        </figcaption>
-  
-      </figure>
-      
-  
-    </div>
-    <h2 id="Race"><strong>Race Games<span>( 1 )</span></strong></h2>
-  
-    <div class="cards">
-  
-      <figure class="card">
-  
-        <img src="https://w0.peakpx.com/wallpaper/609/748/HD-wallpaper-forza-horizon-4-need-speed-most-wanted.jpg" />
-  
-        <figcaption>
-          Forza horizon 4
-          <br>
-          $30,-
-          <br>
-          <button>buy now</button>
-        </figcaption>
-  
-      </figure>
-      <figure class="card">
-  
-        <img src="https://images.penguinrandomhouse.com/cover/9781506732022" />
-  
-        <figcaption>
-          Horizon: Forbidden west
-          <br>
-          $70,-
-          <br>
-          <button>buy now</button>
-        </figcaption>
-  
-      </figure>
-      <figure class="card">
-  
-        <img src="https://m.media-amazon.com/images/M/MV5BY2M5Y2I4MjItNWJkZC00M2Y1LThmNTMtNjVlZDhiYWRjODhhXkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_.jpg" />
-  
-        <figcaption>
-          Horizon: Zero dawn
-          <br>
-          $70,-
-          <br>
-          <button>buy now</button>
-        </figcaption>
-  
-      </figure>
-      <figure class="card">
-  
-        <img src="https://media.s-bol.com/4L6QyQZR87YV/91QXN1J/548x840.jpg" />
-  
-        <figcaption>
-          Assassins creed odyssey
-          <br>
-          $15,-
-          <br>
-          <button>buy now</button>
-        </figcaption>
-  
-      </figure>
-      
-  
-    </div>
-    <h2 id="Race"><strong>Race Games<span>( 1 )</span></strong></h2>
-  
-    <div class="cards">
-  
-      <figure class="card">
-  
-        <img src="https://w0.peakpx.com/wallpaper/609/748/HD-wallpaper-forza-horizon-4-need-speed-most-wanted.jpg" />
-  
-        <figcaption>
-          Forza horizon 4
-          <br>
-          $30,-
-          <br>
-          <button>buy now</button>
-        </figcaption>
-  
-      </figure>
-      <figure class="card">
-  
-        <img src="https://images.penguinrandomhouse.com/cover/9781506732022" />
-  
-        <figcaption>
-          Horizon: Forbidden west
-          <br>
-          $70,-
-          <br>
-          <button>buy now</button>
-        </figcaption>
-  
-      </figure>
-      <figure class="card">
-  
-        <img src="https://m.media-amazon.com/images/M/MV5BY2M5Y2I4MjItNWJkZC00M2Y1LThmNTMtNjVlZDhiYWRjODhhXkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_.jpg" />
-  
-        <figcaption>
-          Horizon: Zero dawn
-          <br>
-          $70,-
-          <br>
-          <button>buy now</button>
-        </figcaption>
-  
-      </figure>
-      <figure class="card">
-  
-        <img src="https://media.s-bol.com/4L6QyQZR87YV/91QXN1J/548x840.jpg" />
-  
-        <figcaption>
-          Assassins creed odyssey
-          <br>
-          $15,-
-          <br>
-          <button>buy now</button>
-        </figcaption>
-  
-      </figure>
-      
-  
-    </div>
-    <h2 id="Race"><strong>Race Games<span>( 1 )</span></strong></h2>
-  
-    <div class="cards">
-  
-      <figure class="card">
-  
-        <img src="https://w0.peakpx.com/wallpaper/609/748/HD-wallpaper-forza-horizon-4-need-speed-most-wanted.jpg" />
-  
-        <figcaption>
-          Forza horizon 4
-          <br>
-          $30,-
-          <br>
-          <button>buy now</button>
-        </figcaption>
-  
-      </figure>
-      <figure class="card">
-  
-        <img src="https://images.penguinrandomhouse.com/cover/9781506732022" />
-  
-        <figcaption>
-          Horizon: Forbidden west
-          <br>
-          $70,-
-          <br>
-          <button>buy now</button>
-        </figcaption>
-  
-      </figure>
-      <figure class="card">
-  
-        <img src="https://m.media-amazon.com/images/M/MV5BY2M5Y2I4MjItNWJkZC00M2Y1LThmNTMtNjVlZDhiYWRjODhhXkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_.jpg" />
-  
-        <figcaption>
-          Horizon: Zero dawn
-          <br>
-          $70,-
-          <br>
-          <button>buy now</button>
-        </figcaption>
-  
-      </figure>
-      <figure class="card">
-  
-        <img src="https://media.s-bol.com/4L6QyQZR87YV/91QXN1J/548x840.jpg" />
-  
-        <figcaption>
-          Assassins creed odyssey
-          <br>
-          $15,-
-          <br>
-          <button>buy now</button>
-        </figcaption>
-  
-      </figure>
-      
-  
-    </div>
-    <h2 id="Race"><strong>Race Games<span>( 1 )</span></strong></h2>
-  
-    <div class="cards">
-  
-      <figure class="card">
-  
-        <img src="https://w0.peakpx.com/wallpaper/609/748/HD-wallpaper-forza-horizon-4-need-speed-most-wanted.jpg" />
-  
-        <figcaption>
-          Forza horizon 4
-          <br>
-          $30,-
-          <br>
-          <button>buy now</button>
-        </figcaption>
-  
-      </figure>
-      <figure class="card">
-  
-        <img src="https://images.penguinrandomhouse.com/cover/9781506732022" />
-  
-        <figcaption>
-          Horizon: Forbidden west
-          <br>
-          $70,-
-          <br>
-          <button>buy now</button>
-        </figcaption>
-  
-      </figure>
-      <figure class="card">
-  
-        <img src="https://m.media-amazon.com/images/M/MV5BY2M5Y2I4MjItNWJkZC00M2Y1LThmNTMtNjVlZDhiYWRjODhhXkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_.jpg" />
-  
-        <figcaption>
-          Horizon: Zero dawn
-          <br>
-          $70,-
-          <br>
-          <button>buy now</button>
-        </figcaption>
-  
-      </figure>
-      <figure class="card">
-  
-        <img src="https://media.s-bol.com/4L6QyQZR87YV/91QXN1J/548x840.jpg" />
-  
-        <figcaption>
-          Assassins creed odyssey
-          <br>
-          $15,-
-          <br>
-          <button>buy now</button>
-        </figcaption>
-  
-      </figure>
-      
-  
-    </div>
-    <h2 id="Race"><strong>Race Games<span>( 1 )</span></strong></h2>
-  
-    <div class="cards">
-  
-      <figure class="card">
-  
-        <img src="https://w0.peakpx.com/wallpaper/609/748/HD-wallpaper-forza-horizon-4-need-speed-most-wanted.jpg" />
-  
-        <figcaption>
-          Forza horizon 4
-          <br>
-          $30,-
-          <br>
-          <button>buy now</button>
-        </figcaption>
-  
-      </figure>
-      <figure class="card">
-  
-        <img src="https://images.penguinrandomhouse.com/cover/9781506732022" />
-  
-        <figcaption>
-          Horizon: Forbidden west
-          <br>
-          $70,-
-          <br>
-          <button>buy now</button>
-        </figcaption>
-  
-      </figure>
-      <figure class="card">
-  
-        <img src="https://m.media-amazon.com/images/M/MV5BY2M5Y2I4MjItNWJkZC00M2Y1LThmNTMtNjVlZDhiYWRjODhhXkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_.jpg" />
-  
-        <figcaption>
-          Horizon: Zero dawn
-          <br>
-          $70,-
-          <br>
-          <button>buy now</button>
-        </figcaption>
-  
-      </figure>
-      <figure class="card">
-  
-        <img src="https://media.s-bol.com/4L6QyQZR87YV/91QXN1J/548x840.jpg" />
-  
-        <figcaption>
-          Assassins creed odyssey
-          <br>
-          $15,-
-          <br>
-          <button>buy now</button>
-        </figcaption>
-  
-      </figure>
-      
-  
-    </div>
-    <h2 id="Race"><strong>Race Games<span>( 1 )</span></strong></h2>
-  
-    <div class="cards">
-  
-      <figure class="card">
-  
-        <img src="https://w0.peakpx.com/wallpaper/609/748/HD-wallpaper-forza-horizon-4-need-speed-most-wanted.jpg" />
-  
-        <figcaption>
-          Forza horizon 4
-          <br>
-          $30,-
-          <br>
-          <button>buy now</button>
-        </figcaption>
-  
-      </figure>
-      <figure class="card">
-  
-        <img src="https://images.penguinrandomhouse.com/cover/9781506732022" />
-  
-        <figcaption>
-          Horizon: Forbidden west
-          <br>
-          $70,-
-          <br>
-          <button>buy now</button>
-        </figcaption>
-  
-      </figure>
-      <figure class="card">
-  
-        <img src="https://m.media-amazon.com/images/M/MV5BY2M5Y2I4MjItNWJkZC00M2Y1LThmNTMtNjVlZDhiYWRjODhhXkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_.jpg" />
-  
-        <figcaption>
-          Horizon: Zero dawn
-          <br>
-          $70,-
-          <br>
-          <button>buy now</button>
-        </figcaption>
-  
-      </figure>
-      <figure class="card">
-  
-        <img src="https://media.s-bol.com/4L6QyQZR87YV/91QXN1J/548x840.jpg" />
-  
-        <figcaption>
-          Assassins creed odyssey
-          <br>
-          $15,-
-          <br>
-          <button>buy now</button>
-        </figcaption>
-  
-      </figure>
-      
-  
-    </div>
-    <h2 id="Race"><strong>Race Games<span>( 1 )</span></strong></h2>
-  
-    <div class="cards">
-  
-      <figure class="card">
-  
-        <img src="https://w0.peakpx.com/wallpaper/609/748/HD-wallpaper-forza-horizon-4-need-speed-most-wanted.jpg" />
-  
-        <figcaption>
-          Forza horizon 4
-          <br>
-          $30,-
-          <br>
-          <button>buy now</button>
-        </figcaption>
-  
-      </figure>
-      <figure class="card">
-  
-        <img src="https://images.penguinrandomhouse.com/cover/9781506732022" />
-  
-        <figcaption>
-          Horizon: Forbidden west
-          <br>
-          $70,-
-          <br>
-          <button>buy now</button>
-        </figcaption>
-  
-      </figure>
-      <figure class="card">
-  
-        <img src="https://m.media-amazon.com/images/M/MV5BY2M5Y2I4MjItNWJkZC00M2Y1LThmNTMtNjVlZDhiYWRjODhhXkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_.jpg" />
-  
-        <figcaption>
-          Horizon: Zero dawn
-          <br>
-          $70,-
-          <br>
-          <button>buy now</button>
-        </figcaption>
-  
-      </figure>
-      <figure class="card">
-  
-        <img src="https://media.s-bol.com/4L6QyQZR87YV/91QXN1J/548x840.jpg" />
-  
-        <figcaption>
-          Assassins creed odyssey
-          <br>
-          $15,-
-          <br>
-          <button>buy now</button>
-        </figcaption>
-  
-      </figure>
-      
-  
-    </div>
-    <h2 id="Race"><strong>Race Games<span>( 1 )</span></strong></h2>
-  
-    <div class="cards">
-  
-      <figure class="card">
-  
-        <img src="https://w0.peakpx.com/wallpaper/609/748/HD-wallpaper-forza-horizon-4-need-speed-most-wanted.jpg" />
-  
-        <figcaption>
-          Forza horizon 4
-          <br>
-          $30,-
-          <br>
-          <button>buy now</button>
-        </figcaption>
-  
-      </figure>
-      <figure class="card">
-  
-        <img src="https://images.penguinrandomhouse.com/cover/9781506732022" />
-  
-        <figcaption>
-          Horizon: Forbidden west
-          <br>
-          $70,-
-          <br>
-          <button>buy now</button>
-        </figcaption>
-  
-      </figure>
-      <figure class="card">
-  
-        <img src="https://m.media-amazon.com/images/M/MV5BY2M5Y2I4MjItNWJkZC00M2Y1LThmNTMtNjVlZDhiYWRjODhhXkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_.jpg" />
-  
-        <figcaption>
-          Horizon: Zero dawn
-          <br>
-          $70,-
-          <br>
-          <button>buy now</button>
-        </figcaption>
-  
-      </figure>
-      <figure class="card">
-  
-        <img src="https://media.s-bol.com/4L6QyQZR87YV/91QXN1J/548x840.jpg" />
-  
-        <figcaption>
-          Assassins creed odyssey
-          <br>
-          $15,-
-          <br>
-          <button>buy now</button>
-        </figcaption>
-  
-      </figure>
-      
-  
-    </div>
-    
-  
   </div>
+</div>
+
+
+
+
+<div style="z-index: 400;" id="The-Last-of-Us" class="popup">
+  <div class="popup__container">
+    <a href="#" class="popup__close">
+      <span class="screen-reader">close</span>
+    </a>  
+    <div class="popup__content">
+      <h1 class="popup__title r-title">"The Last of Us"</h1>
+      <p>In deze survival game, speel je als Joel, een oude man die samen met Ellie, een meisje van 14 jaar, door een post-apocalyptische wereld trekt waar een dodelijk virus de meeste mensen heeft uitgeroeid. Je moet vechten tegen mensen en monsters terwijl je probeert te overleven in een wereld waar middelen schaars zijn.</p>
+      
+    </div>
+  </div>
+</div>
+
+<div style="z-index: 400;" id="Don-Starve" class="popup">
+  <div class="popup__container">
+    <a href="#" class="popup__close">
+      <span class="screen-reader">close</span>
+    </a>  
+    <div class="popup__content">
+      <h1 class="popup__title r-title">"Don't Starve"</h1>
+      <p>In deze survival game, speel je als Wilson, een wetenschapper die is gestrand in een bizarre, gevaarlijke wereld vol met monsters en andere gevaren. Je moet overleven door voedsel te vinden en te verzamelen, en door te bouwen en te handelen met andere personages.</p>
+      
+    </div>
+  </div>
+</div>
+
+<div style="z-index: 400;" id="ARK" class="popup">
+  <div class="popup__container">
+    <a href="#" class="popup__close">
+      <span class="screen-reader">close</span>
+    </a>  
+    <div class="popup__content">
+      <h1 class="popup__title r-title">"ARK: Survival Evolved"</h1>
+      <p>In deze survival game, speel je als een overlevende op een eiland vol met dinosaurussen en andere gevaarlijke dieren. Je moet jezelf beschermen tegen de elementen en de dieren terwijl je probeert te overleven op het eiland. Je kunt ook andere spelers tegenkomen en samenwerken of tegen hen vechten.</p>
+      
+    </div>
+  </div>
+</div>
+
+<div style="z-index: 400;" id="Rust" class="popup">
+  <div class="popup__container">
+    <a href="#" class="popup__close">
+      <span class="screen-reader">close</span>
+    </a>  
+    <div class="popup__content">
+      <h1 class="popup__title r-title">"Rust"</h1>
+      <p>In deze survival game, speel je als een overlevende in een wereld vol met andere spelers die ook proberen te overleven. Je moet voedsel en middelen verzamelen om te overleven, en je kunt ook bouwen en handelen met andere spelers. Het spel heeft een sterke focus op PvP-actie.</p>
+      
+    </div>
+  </div>
+</div>
+
+
+
+<div style="z-index: 400;" id="7-Days-to-Die" class="popup">
+  <div class="popup__container">
+    <a href="#" class="popup__close">
+      <span class="screen-reader">close</span>
+    </a>  
+    <div class="popup__content">
+      <h1 class="popup__title r-title">"7 Days to Die"</h1>
+      <p>In deze survival game, speel je als een overlevende in een wereld vol met zombies. Je moet voedsel en middelen verzamelen om te overleven, en je moet ook je huis verdedigen tegen de zombies. Het spel heeft ook een element van crafting en bouwen.</p>
+      
+    </div>
+  </div>
+</div>
+
+
+<div style="z-index: 400;" id="Surviving-Mars" class="popup">
+  <div class="popup__container">
+    <a href="#" class="popup__close">
+      <span class="screen-reader">close</span>
+    </a>  
+    <div class="popup__content">
+      <h1 class="popup__title r-title">"Surviving Mars"</h1>
+      <p>In deze survival game, speel je als een kolonist op de planeet Mars. Je moet voedsel, water en andere middelen verzamelen om te overleven, en je moet ook zorgen dat je niet bevroren of verbrand raakt door de extreme temperaturen op de planeet.</p>
+      
+    </div>
+  </div>
+</div>
+
+
+
+<div style="z-index: 400;" id="The-Forest" class="popup">
+  <div class="popup__container">
+    <a href="#" class="popup__close">
+      <span class="screen-reader">close</span>
+    </a>  
+    <div class="popup__content">
+      <h1 class="popup__title r-title">"The Forest"</h1>
+      <p>In deze survival game, speel je als een overlevende op een eiland vol met cannibale inboorlingen. Je moet voedsel en middelen verzamelen om te overleven, en je moet ook je huis verdedigen tegen de inboorlingen. Het spel heeft ook een element van crafting en bouwen.</p>
+      
+    </div>
+  </div>
+</div>
+
+
+<div style="z-index: 400;" id="Need-for-Speed" class="popup">
+  <div class="popup__container">
+    <a href="#" class="popup__close">
+      <span class="screen-reader">close</span>
+    </a>  
+    <div class="popup__content">
+      <h1 class="popup__title r-title">"Need for Speed"</h1>
+      <p>Een langlopend racespel waarbij spelers hoogwaardige auto's kunnen aanpassen en racen op verschillende circuits en omgevingen. Het spel biedt verschillende spelmodes, zoals drag racing, street racing en circuit racing.</p>
+      
+    </div>
+  </div>
+</div>
+
+
+
+<div style="z-index: 400;" id="Forza-Motorsport" class="popup">
+  <div class="popup__container">
+    <a href="#" class="popup__close">
+      <span class="screen-reader">close</span>
+    </a>  
+    <div class="popup__content">
+      <h1 class="popup__title r-title">"Forza Motorsport 7"</h1>
+      <p>Een realistisch racespel met een grote variatie aan auto's en circuits. Het spel biedt realistische rijgedrag en fysica, en spelers kunnen hun auto's aanpassen met verschillende onderdelen en tuning-opties. Er zijn ook verschillende spelmodes, zoals circuit racing, drag racing en rally.</p>
+      
+    </div>
+  </div>
+</div>
+
+<div style="z-index: 400;" id="gran-turismo-7" class="popup">
+  <div class="popup__container">
+    <a href="#" class="popup__close">
+      <span class="screen-reader">close</span>
+    </a>  
+    <div class="popup__content">
+      <h1 class="popup__title r-title">"Gran turismo 7"</h1>
+      <p>Een racespel dat bekendstaat om zijn realistische rijgedrag en grote selectie aan voertuigen. Het spel biedt realistische rijgedrag en fysica, en spelers kunnen hun auto's aanpassen met verschillende onderdelen en tuning-opties. Er zijn ook verschillende spelmodes, zoals circuit racing, drag racing en rally.</p>
+      
+    </div>
+  </div>
+</div>
+
+
+<div style="z-index: 400;" id="Mario-Kart-8" class="popup">
+  <div class="popup__container">
+    <a href="#" class="popup__close">
+      <span class="screen-reader">close</span>
+    </a>  
+    <div class="popup__content">
+      <h1 class="popup__title r-title">"Mario Kart 8"</h1>
+      <p>Een populaire racespel met Mario en andere personages uit de Mario-franchise. Spelers racen in karts en gebruiken power-ups om een voordeel te behalen, zoals bananenschillen om tegenstanders te laten glijden of bliksemflitsen om ze te vertragen. Het spel is gericht op arcade-achtig rijgedrag en biedt verschillende spelmodes, zoals circuit racing en battle mode.</p>
+      
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<!-- partial -->
+
+<div class="wrapper">
+
+  
+  <h2 id="Servival"><strong>Servival games<span>( 7 )</span></strong></h2>
+
+  <div class="cards">
+
+    <figure class="card">
+
+      <img src="https://image.api.playstation.com/vulcan/ap/rnd/202206/0720/aZKLRcjaZ8HL03ODxYMZDfaH.png" />
+
+      <figcaption>
+        The Last of Us
+        <br>
+        $30,-
+        <br>
+        <a href="#The-Last-of-Us" class="open-popup">buy now</a>
+      </figcaption>
+
+    </figure>
+    <figure class="card">
+
+      <img src="https://upload.wikimedia.org/wikipedia/en/d/d2/Don%27t_Starve_cover.jpg" />
+
+      <figcaption>
+        Don't Starve
+        <br>
+        $10,-
+        <br>
+        <a href="#Don-Starve" class="open-popup">buy now</a>
+      </figcaption>
+
+    </figure>
+    <figure class="card">
+
+      <img src="https://cdn.cdkeys.com/700x700/media/catalog/product/s/t/streamer-life-simulator-free-download-steam-repacks_10_.jpg" />
+
+      <figcaption>
+        ARK: Survival Evolved
+        <br>
+        $70,-
+        <br>
+        <a href="#ARK" class="open-popup">buy now</a>
+      </figcaption>
+
+    </figure>
+    <figure class="card">
+
+      <img src="data:image/jpeg;base64,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" />
+
+      <figcaption>
+        Rust
+        <br>
+        $40,-
+        <br>
+        <a href="#Rust" class="open-popup">buy now</a>
+      </figcaption>
+
+    </figure>
+    <figure class="card">
+
+      <img src="https://upload.wikimedia.org/wikipedia/en/2/20/7_Days_To_Die_cover_art.jpg" />
+
+      <figcaption>
+        7 Days to Die
+        <br>
+        $7,-
+        <br>
+        <a href="#7-Days-to-Die" class="open-popup">buy now</a>
+      </figcaption>
+
+    </figure>
+
+    <figure class="card">
+
+      <img src="https://www.mobygames.com/images/covers/l/457792-surviving-mars-windows-apps-front-cover.jpg" />
+
+      <figcaption>
+        Surviving Mars
+        <br>
+        $7,-
+        <br>
+        <a href="#Surviving-Mars" class="open-popup">buy now</a>
+      </figcaption>
+
+    </figure>
+
+    <figure class="card">
+
+      <img src="https://www.productsleutels.nl/wp-content/uploads/2021/01/the-forest_cover_original.png" />
+
+      <figcaption>
+        The Forest
+        <br>
+        $15,-
+        <br>
+        <a href="#The-Forest" class="open-popup">buy now</a>
+      </figcaption>
+
+    </figure>
+
+  </div>
+  <h2 id="Race"><strong>Race Games<span>( 4 )</span></strong></h2>
+
+  <div class="cards">
+
+    <figure class="card">
+
+      <img src="data:image/jpeg;base64,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" />
+
+      <figcaption>
+        Need for Speed
+        <br>
+        $17,-
+        <br>
+        <a href="#Need-for-Speed" class="open-popup">buy now</a>
+      </figcaption>
+
+    </figure>
+    <figure class="card">
+
+      <img src="https://www.mobygames.com/images/covers/l/490104-forza-motorsport-7-windows-apps-front-cover.jpg" />
+
+      <figcaption>
+        Forza Motorsport 7
+        <br>
+        $30,-
+        <br>
+        <a href="#Forza-Motorsport" class="open-popup">buy now</a>
+      </figcaption>
+
+    </figure>
+    <figure class="card">
+
+      <img src="https://livekaarten.nl/pi/gran-turismo-7-ps5-eu-64670.jpg" />
+
+      <figcaption>
+        gran turismo 7
+        <br>
+        $35,-
+        <br>
+        <a href="#gran-turismo-7" class="open-popup">buy now</a>
+      </figcaption>
+
+    </figure>
+    <figure class="card">
+
+      <img src="https://media.s-bol.com/YoNQpl3N0Gn/550x780.jpg" />
+
+      <figcaption>
+        Mario Kart 8
+        <br>
+        $25,-
+        <br>
+        <a href="#Mario-Kart-8" class="open-popup">buy now</a>
+      </figcaption>
+
+    </figure>
+
+    
+    
+
+  </div>
+
+  <h2 id="FPS"><strong>FPS Games<span>( 5 )</span></strong></h2>
+
+  <div class="cards">
+
+    
+
+    
+    
+
+  </div>
+  
+  
+
+</div>
 </body>
 </html>
