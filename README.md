@@ -1,2 +1,2 @@
-# webschop
-a webschop made for E&amp;O
+# https://silkepilon.github.io/webshop/
+a webshop made for E&amp;O
